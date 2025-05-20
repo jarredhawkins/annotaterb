@@ -50,6 +50,7 @@ module AnnotateRb
       show_indexes: true, # ModelAnnotator
       show_virtual_columns: false, # ModelAnnotator
       simple_indexes: false, # ModelAnnotator
+      skip_unchanged_files: false, # ModelAnnotator, RouteAnnotator
       sort: false, # ModelAnnotator
       timestamp: false, # RouteAnnotator
       trace: false, # ModelAnnotator, but is part of Core
@@ -119,6 +120,7 @@ module AnnotateRb
       :show_foreign_keys,
       :show_indexes,
       :simple_indexes,
+      :skip_unchanged_files,
       :sort,
       :timestamp,
       :trace,
